@@ -1,0 +1,54 @@
+
+[
+    {
+      "id": 1,
+      "cover": "https://example.com/cover1.jpg",
+      "title": "Lorem Ipsum",
+      "author": "John Doe",
+      "img": "https://example.com/author_avatar.jpg",
+      "posted_date": "2024-03-12",
+      "reading_time": 10,
+      "hashtag": ["fiction", "LoremIpsum"]
+    },
+    {
+      "id": 2,
+      "cover": "https://example.com/cover2.jpg",
+      "title": "Random Thoughts",
+      "author": "Jane Smith",
+      "img": "https://example.com/author_avatar.jpg",
+      "posted_date": "2024-03-11",
+      "reading_time": 8,
+      "hashtag": ["philosophy", "thoughts"]
+    },
+    {
+      "id": 3,
+      "cover": "https://example.com/cover3.jpg",
+      "title": "Coding Adventures",
+      "author": "Developer123",
+      "img": "https://example.com/developer_avatar.jpg",
+      "posted_date": "2024-03-10",
+      "reading_time": 15,
+      "hashtag": ["coding", "programming"]
+    },
+    {
+      "id": 4,
+      "cover": "https://example.com/cover4.jpg",
+      "title": "Gourmet Delights",
+      "author": "ChefMaster",
+      "img": "https://example.com/chef_avatar.jpg",
+      "posted_date": "2024-03-09",
+      "reading_time": 12,
+      "hashtag": ["foodie", "recipes"]
+    },
+    {
+      "id": 5,
+      "cover": "https://example.com/cover5.jpg",
+      "title": "Travel Chronicles",
+      "author": "Wanderlust",
+      "img": "https://example.com/traveler_avatar.jpg",
+      "posted_date": "2024-03-08",
+      "reading_time": 20,
+      "hashtag": ["travel", "adventure"]
+    }
+  ]
+  
