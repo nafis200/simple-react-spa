@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/header/Header'
 import Blogs from './components/blogs/Blogs'
+import Bookmarks from './components/bookmarks/Bookmarks'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,12 +10,17 @@ function App() {
   return (
     <>
        <Header></Header>
-       <Blogs></Blogs>
+       <main className='md:flex'>
+        <Blogs></Blogs>
+        <Bookmarks></Bookmarks>
+       </main>
       
     </>
   )
 }
 
 export default App
+
+
 
 
