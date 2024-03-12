@@ -5,13 +5,17 @@ import Blogs from './components/blogs/Blogs'
 import Bookmarks from './components/bookmarks/Bookmarks'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [bookmarks, setBookmarks] = useState([])
+
+  const handleAddtoBookmark = blog =>{
+     console.log('bookmark adding soon');
+  }
 
   return (
     <>
        <Header></Header>
-       <main className='md:flex'>
-        <Blogs></Blogs>
+       <main className='md:flex max-w-7xl mx-auto'>
+        <Blogs handleAddtoBookmark={handleAddtoBookmark}></Blogs>
         <Bookmarks></Bookmarks>
        </main>
       
